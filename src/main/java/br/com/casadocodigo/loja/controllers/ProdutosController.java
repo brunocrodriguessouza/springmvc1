@@ -21,7 +21,7 @@ import br.com.casadocodigo.loja.model.TipoPreco;
 import br.com.casadocodigo.validation.ProdutoValidation;
 
 @Controller
-@RequestMapping("produtos")
+@RequestMapping("/produtos")
 public class ProdutosController {
 	
 	@Autowired
